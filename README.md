@@ -1,30 +1,16 @@
-# abb_robot_driver_interfaces
-
-![CI - Ubuntu Bionic](https://github.com/ros-industrial/abb_robot_driver_interfaces/workflows/CI%20-%20Ubuntu%20Bionic/badge.svg)
-![CI - Ubuntu Focal](https://github.com/ros-industrial/abb_robot_driver_interfaces/workflows/CI%20-%20Ubuntu%20Focal/badge.svg)
-[![Github Issues](https://img.shields.io/github/issues/ros-industrial/abb_robot_driver_interfaces.svg)](http://github.com/ros-industrial/abb_robot_driver_interfaces/issues)
+# abb_rapid_sm_addin_msgs
 
 [![license - bsd 3 clause](https://img.shields.io/:license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-
 [![support level: vendor](https://img.shields.io/badge/support%20level-vendor-brightgreen.svg)](http://rosindustrial.org/news/2016/10/7/better-supporting-a-growing-ros-industrial-software-platform)
 
-**Please note that the included packages have not been productized, and that academia is the intended audience.**\
-**The packages are provided "as-is", and as such no more than limited support can be expected.**
+**Please note that this package has not been productized, and that academia is the intended audience.**\
+**The package is provided "as-is", and as such no more than limited support can be expected.**
 
 ## Overview
 
-ROS packages with ROS message and service definitions, intended for use with [abb_robot_driver](https://github.com/ros-industrial/abb_robot_driver).
+ROS message and service definitions representing interaction with `RAPID` program instances of the `RobotWare` [StateMachine Add-In](https://robotapps.robotstudio.com/#/viewApp/c163de01-792e-4892-a290-37dbe050b6e1).
 
-The included packages are briefly described in the following table:
-
-| Package | Description |
-| --- | --- |
-| [abb_robot_msgs](abb_robot_msgs) | ROS message and service definitions representing basic interaction with ABB robots:<br><ul><li>Reading system states (*e.g. motors on/off and if auto/manual mode is active*).</li><li>Starting and stopping `RAPID` program execution.</li><li>Reading and writing of `RAPID` data symbols (*e.g. variables and constants*).</li><li>Reading and writing of IO-signals.</li><li>And more.</li></ul> |
-| [abb_rapid_msgs](abb_rapid_msgs) | ROS message definitions representing complex `RAPID` data structures:<br><ul><li>`loaddata`.</li><li>`tooldata`.</li><li>`wobjdata`.</li><li>`jointtarget`.</li><li>`robtarget`.</li><li>And more.</li></ul> |
-| [abb_egm_msgs](abb_egm_msgs) | ROS message definitions representing data related to *Externally Guided Motion* (`EGM`) communication channels. |
-| [abb_rapid_sm_addin_msgs](abb_rapid_sm_addin_msgs) | ROS message and service definitions representing interaction with `RAPID` program instances of the `RobotWare` [StateMachine Add-In](https://robotapps.robotstudio.com/#/viewApp/c163de01-792e-4892-a290-37dbe050b6e1):<br><ul><li>Reading runtime states of the `RAPID` program instances (*i.e. the state machines*).</li><li>Starting and stopping `EGM` communication sessions.</li><li>Reading and writing of `EGM` `RAPID` settings.</li><li>Opening/closing `SmartGripper` fingers.</li><li>And more.</li></ul> |
-
-Please see [abb_robot_driver](https://github.com/ros-industrial/abb_robot_driver) for more details.
+Please see [abb_robot_driver_interfaces](https://github.com/ros-industrial/abb_robot_driver_interfaces) for more details.
 
 ## Acknowledgements
 
