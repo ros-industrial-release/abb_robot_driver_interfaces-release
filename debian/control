@@ -1,0 +1,12 @@
+Source: ros-melodic-abb-robot-msgs
+Section: misc
+Priority: optional
+Maintainer: Jon Tjerngren <jon.tjerngren@se.abb.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-abb-robot-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: Provides ROS message and service definitions, representing basic interaction with ABB robot controllers.
