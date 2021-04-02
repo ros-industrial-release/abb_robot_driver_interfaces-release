@@ -1,0 +1,12 @@
+Source: ros-noetic-abb-egm-msgs
+Section: misc
+Priority: optional
+Maintainer: Jon Tjerngren <jon.tjerngren@se.abb.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-abb-egm-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: Provides ROS message definitions, representing Externally Guided Motion (EGM) data from ABB robot controllers.
