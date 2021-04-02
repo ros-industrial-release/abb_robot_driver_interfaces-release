@@ -1,0 +1,12 @@
+Source: ros-noetic-abb-rapid-sm-addin-msgs
+Section: misc
+Priority: optional
+Maintainer: Jon Tjerngren <jon.tjerngren@se.abb.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-abb-rapid-msgs, ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-abb-rapid-sm-addin-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-abb-rapid-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: Provides ROS message and service definitions, representing interaction with ABB robot controllers using the RobotWare StateMachine Add-In.
