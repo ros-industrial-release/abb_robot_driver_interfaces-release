@@ -1,0 +1,28 @@
+ros-kinetic-abb-robot-msgs (0.5.3-1xenial) xenial; urgency=high
+
+  * Lower minimum required CMake version to solve build error on Kinetic (#14 <https://github.com/ros-industrial/abb_robot_driver_interfaces/issues/14>)
+  * Contributors: gavanderhoorn
+
+ -- Jon Tjerngren <jon.tjerngren@se.abb.com>  Fri, 02 Apr 2021 22:00:00 -0000
+
+ros-kinetic-abb-robot-msgs (0.5.2-1xenial) xenial; urgency=high
+
+  * Install readme and license (#12 <https://github.com/ros-industrial/abb_robot_driver_interfaces/issues/12>)
+  * Contributors: gavanderhoorn
+
+ -- Jon Tjerngren <jon.tjerngren@se.abb.com>  Thu, 01 Apr 2021 22:00:00 -0000
+
+ros-kinetic-abb-robot-msgs (0.5.1-1xenial) xenial; urgency=high
+
+  * No changes
+
+ -- Jon Tjerngren <jon.tjerngren@se.abb.com>  Mon, 29 Mar 2021 22:00:00 -0000
+
+ros-kinetic-abb-robot-msgs (0.5.0-1xenial) xenial; urgency=high
+
+  * Initial release
+  * Contributors: Jon Tjerngren
+
+ -- Jon Tjerngren <jon.tjerngren@se.abb.com>  Wed, 20 Jan 2021 23:00:00 -0000
+
+
